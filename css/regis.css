@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Quicksand:wght@300..700&display=swap');
+*{
+    font-family: "Bricolage Grotesque", sans-serif;
+    text-align: center;
+
+}
+
+form{
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.formulario{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+
+}
+
+input{
+    width: 100%;
+    max-width: 80%;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 30px;
+    border: solid 1px grey;
+}
+
+.form-group{
+    
+    margin: 15px;
+}
+
+label{
+    color: rgb(18, 75, 126);
+}
+
+.btn{
+    width: 100%;
+    max-width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(18, 75, 126);
+    ;
+    color: white;
+    cursor: pointer;
+}
+
