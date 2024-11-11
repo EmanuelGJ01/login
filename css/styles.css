@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Quicksand:wght@300..700&display=swap');
+*{
+    font-family: "Bricolage Grotesque", sans-serif;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+   
+}
+body{
+    padding: 30px;
+}
+
+main{
+    display: flex;
+    gap: 15px;
+    margin: 4rem;
+}
+
+.cuenta{
+    border: solid 1px grey;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.text1, .text1_1{
+    opacity: .7;
+}
+
+form{
+    border: 1px solid grey;
+}
+
+label{
+    color: rgb(18, 75, 126);
+}
+
+.formulario{
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.fomulario input{
+    border-radius: 5px;
+}
+
+.formulario .btn{
+    margin: 20px;
+    width: 100%;
+    max-width: 80%;
+
+}
+
+.btn{
+    background-color: rgb(18, 75, 126);
+    color: white;
+} 
+
+a{
+    text-decoration: none;
+}
